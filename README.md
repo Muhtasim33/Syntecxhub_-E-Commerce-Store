@@ -70,18 +70,7 @@ npm run dev:api
 
 ---
 
-## 4. Evaluator Demo Credentials
-
-| Role | Email | Password | Access Rights |
-|------|-------|----------|---------------|
-| **Admin** | `admin@aurelia.com` | `AdminPass123!` | Full Admin Suite (`/admin/*`), Catalog CRUD, Orders Lifecycle, Settings |
-| **Customer** | `genevieve.vance@luxurymail.com` | `ClientPass123!` | Storefront, Cart, 4-Step Checkout, Account Portal (`/account/*`) |
-
-*Tip: On the `/login` page, you can click the **"Fill Admin Role"** or **"Fill Customer Role"** buttons for instant one-click login.*
-
----
-
-## 5. Verified User Flows
+## 4. Verified User Flows
 
 1. **Guest Storefront Browsing:** Parallax hero &rarr; Category filtration &rarr; Product card hover zoom with Quick-Add &rarr; Slide-in Mini Cart Drawer.
 2. **Product Detail Page:** Multi-image gallery, interactive ring/garment variant selector (size/color), real-time stock indicator, and sticky Add to Bag bar.
