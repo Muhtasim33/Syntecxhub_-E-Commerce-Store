@@ -2,7 +2,7 @@
 
 A production-ready e-commerce platform built strictly according to **PRD.md**, **TRD.md**, **ARCHITECTURE.md**, and **APP_FLOW.md**.
 
-**Live Deployment:** [https://6af20a7f819b2c1b7c85e73b--bucolic-lolly-1fce1e.netlify.app/](https://6af20a7f819b2c1b7c85e73b--bucolic-lolly-1fce1e.netlify.app/)
+**Live Deployment:** [https://bucolic-lolly-1fce1e.netlify.app/](https://bucolic-lolly-1fce1e.netlify.app/)
 
 ---
 
