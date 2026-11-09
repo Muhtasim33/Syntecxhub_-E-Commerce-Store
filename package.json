@@ -1,0 +1,35 @@
+{
+  "name": "ecommerce-platform",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Production-ready e-commerce platform built strictly according to PRD, TRD, ARCHITECTURE, and APP_FLOW specifications.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "dev:all": "npm run dev --workspaces",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "build": "npm run build:shared && npm run build --workspace=apps/web",
+    "build:shared": "npm run build --workspace=packages/shared",
+    "build:web": "npm run build:shared && npm run build --workspace=apps/web",
+    "build:api": "npm run build:shared && npm run build --workspace=apps/api",
+    "start:web": "npm run start --workspace=apps/web",
+    "start:api": "npm run start --workspace=apps/api",
+    "lint": "npm run lint --workspaces",
+    "test": "npm run test --workspaces"
+  },
+  "keywords": [
+    "ecommerce",
+    "nextjs",
+    "express",
+    "prisma",
+    "postgresql",
+    "tailwind",
+    "framer-motion"
+  ],
+  "author": "",
+  "license": "UNLICENSED"
+}

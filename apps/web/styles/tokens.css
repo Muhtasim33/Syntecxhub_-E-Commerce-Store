@@ -1,0 +1,22 @@
+:root {
+  --color-emerald-950: #02110c;   /* Dark Emerald Green: header, footer, dark sections, text */
+  --color-olive-800:   #1a422f;   /* Olive Green: primary buttons, links, active states */
+  --color-cream-100:   #f3ebd6;   /* Cream Beige: page background, cards, text on dark */
+
+  /* supporting tokens */
+  --color-olive-700:   #25593f;   /* hover */
+  --color-cream-300:   #e2d7bb;   /* borders, dividers */
+  --color-muted:       #4a5a50;   /* secondary text */
+  --color-gold-400:    #c9a96e;   /* luxury gold accent */
+  --color-success:     #2f7d4f;   /* success state */
+  --color-warning:     #b7791f;   /* warning state */
+  --color-danger:      #b3402f;   /* error/danger state */
+
+  /* semantic aliases */
+  --bg-page: var(--color-cream-100);
+  --bg-inverse: var(--color-emerald-950);
+  --text-body: var(--color-emerald-950);
+  --text-inverse: var(--color-cream-100);
+  --btn-primary-bg: var(--color-olive-800);
+  --btn-primary-hover: var(--color-olive-700);
+}
